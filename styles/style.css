@@ -1,0 +1,161 @@
+/* ------------------------------------
+            Universal Styles
+------------------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* -----------------------------------
+            Container Styles
+------------------------------------ */
+.container {
+  width: 100%;
+  padding: 5em 0 2em;
+  background-color: #ff900e1a;
+}
+
+.common {
+  margin: 0px 10%;
+}
+
+/* -------------------------------------
+         Header and Nav Bar Styles
+-------------------------------------- */
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-title > h2 {
+  font-size: 30px;
+}
+
+.navs ul {
+  display: flex;
+  align-items: center;
+  gap: 1.5em;
+  list-style: none;
+}
+
+.navs li a {
+  text-decoration: none;
+  color: #424242;
+}
+
+.header-content {
+  padding-top: 3em;
+  width: 40%;
+  margin: auto;
+  text-align: center;
+}
+
+.segment-title {
+  font-weight: 700;
+  font-size: 2.5em;
+  margin: 0.5em 0;
+}
+
+.caption {
+  color: #727272;
+  margin-bottom: 1.5em;
+}
+/* -------------BTN Styles-------------- */
+.submit {
+  font-size: 20px;
+  color: white;
+  padding: 0.8em 1em;
+  border: 0;
+  border-radius: 10px;
+  background-color: #ff900e;
+  cursor: pointer;
+}
+
+.banner-image {
+  width: 100%;
+  margin-top: 2em;
+}
+
+.gallery-features {
+  /* display: flex; */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  margin: 50px 5%;
+  gap: 2em;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1em;
+}
+
+.gallery img {
+  width: 250px;
+}
+
+#gray {
+  color: #727272;
+}
+
+#black {
+  color: black;
+}
+
+#color {
+  color: #ff900e;
+}
+
+/* ----------------------------------------
+                Main Styles
+------------------------------------------*/
+.main-content {
+  position: relative;
+}
+
+.btn-experience {
+  color: white;
+  border: 0;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: #ff900e;
+  position: absolute;
+  bottom: 15px;
+  right: 38%;
+  cursor: pointer;
+}
+
+/* ----------------------------------------
+       Works and Portfolio Styles
+------------------------------------------*/
+.works-portfolio {
+  /* display: flex; */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3em;
+}
+
+.works {
+  /* width: 50%; */
+}
+
+.works .segment-title {
+  border-left: 3px solid #ff900e;
+  padding-left: 5px;
+}
+
+.portfolio-image img {
+  width: 100%;
+  max-height: 672px;
+}
+
+.work {
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 5px 1.5em;
+  box-shadow: 0px 0px 10px 3px rgba(188, 209, 236, 0.2);
+}
