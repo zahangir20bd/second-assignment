@@ -309,6 +309,10 @@ p {
     width: 100%;
   }
 
+  .gallery-features {
+    margin: 0;
+  }
+
   .btn-experience {
     display: none;
   }
